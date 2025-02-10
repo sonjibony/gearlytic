@@ -58,6 +58,69 @@ place-items: center;
 margin-top: 100px;
 margin-bottom: 100px;
 }
+
+/* popular section style */
+.popular-collections{
+    height: 1660px;
+    width: 1047px;
+    margin: 0 auto;
+}
+.collection-title{
+    font-size: 2.5rem;
+    color: #3A3A3A;
+    text-align: center;
+}
+.collection-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 5px;
+    justify-content: center;
+}
+
+.collection-card {
+    background: #fff;
+    width: 330px;
+    height: 476px;
+    padding: 5px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    margin: 0 auto;
+}
+
+.collection-card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Image Styling */
+.card-img {
+    width: 300px;
+    height: 256px; /* Fixed height for consistency */
+    object-fit: cover; /* Ensures the image is cropped nicely */
+    border-radius: 6px;
+}
+
+/* Typography */
+.card-title {
+    font-size: 1.5rem;
+    margin: 10px 0 5px;
+    color:#3A3A3A ;
+    
+}
+
+.card-price {
+    font-size: 1.2rem;
+    color: #E02C6D;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card-des {
+    font-size: 1rem;
+    color: #666;
+}
  /* responsive */
  /* mobile device */
  @media  screen and (max-width:576px) {
