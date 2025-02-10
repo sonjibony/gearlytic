@@ -1,0 +1,26 @@
+
+
+/* shared items */
+.display-flex{
+display: flex;
+}
+
+
+/* navbar */
+.navbar{
+    justify-content: space-between;
+}
+.nav-title{
+    font-size: 1.5rem;
+    color: #3A3A3A;
+
+}
+.nav-lists{
+    gap: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+.list-item{
+    list-style: none;
+}
