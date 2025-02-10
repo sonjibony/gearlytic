@@ -5,6 +5,14 @@
 display: flex;
 }
 
+.btn-primary{
+    padding:  10px 24px;
+    border: none;
+    border-radius: 40px;
+    background-color: #E02C6D;
+    color: white;
+    font-size: 700;
+}
 
 /* navbar */
 .navbar{
@@ -24,3 +32,21 @@ display: flex;
 .list-item{
     list-style: none;
 }
+ /* banner style */
+ .banner{
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+ }
+
+ .banner-title{
+    font-size: 3.25rem ;
+    color: #3A3A3A;
+    margin-bottom: 5px;
+    font-weight: bold;
+ }
+ .banner-des{
+    font-size: 1rem ;
+    color: #3A3A3A;
+ }
