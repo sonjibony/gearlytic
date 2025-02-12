@@ -134,6 +134,17 @@ margin-bottom: 100px;
     min-height: 300px;
 }
 
+/* footer */
+.footer{
+    background-color:#0A0826 ;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+.copy{
+    color: #E02C6D;
+}
+
  /* responsive */
  /* mobile device */
  @media  screen and (max-width:576px) {
